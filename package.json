@@ -1,0 +1,36 @@
+{
+  "name": "dev-debug-helper",
+  "version": "1.0.0",
+  "description": "React 개발 시 요소의 className과 파일 경로를 쉽게 복사할 수 있는 디버그 도구",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "debug",
+    "developer-tools",
+    "className",
+    "file-path",
+    "devtools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
